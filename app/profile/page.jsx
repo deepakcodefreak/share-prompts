@@ -18,7 +18,7 @@ const  ProfilePage = () => {
             setPrompts(data);
         }
         fetchPrompts();
-    },[])  
+    },[session?.user.id])  
 
   const handleEdit = (prompt)=>{
     router.push(`/update-prompt?id=${prompt._id}`)

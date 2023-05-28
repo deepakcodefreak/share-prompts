@@ -32,7 +32,7 @@ function PromtCard({prompt, handleTagClick, handleEdit, handleDelete}) {
         </div>
 
         <div className="copy_btn" onClick={handleCopy}>
-            <Image width={12} height={12} src={copy === postMessage.prompt ? '/assets/icons/tick.svg': '/assets/icons/copy.svg'} alt='copy-icon' width={12} height={12}/>
+            <Image width={12} height={12} src={copy === postMessage.prompt ? '/assets/icons/tick.svg': '/assets/icons/copy.svg'} alt='copy-icon'/>
         </div>
 
       </div>
